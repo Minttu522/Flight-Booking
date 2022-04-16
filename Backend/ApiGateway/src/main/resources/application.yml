@@ -1,0 +1,18 @@
+#server:
+#  port: 8999
+#eureka:
+#  instance:
+#    hostname: localhost
+#  
+#  
+#spring:
+#  application:
+#    name: Api-Gateway
+#  cloud:
+#    gateway:
+#      routes:
+#      - id: User-Microservice
+#        uri: lb:http://user-microservice:8004
+#        predicates:
+#        - path=/user/**
+            
